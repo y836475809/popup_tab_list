@@ -1,0 +1,45 @@
+html, body {
+    width: 800px;
+}
+
+a {
+    margin: 5px;
+    display: inline-block;
+}
+
+#tabs-list {
+    display: flex;
+    flex-wrap: wrap; 
+}
+
+.switch-tabs-div {
+    padding-top: 5px;
+    padding-bottom: 5px;
+    padding-right: 5px;
+    display: flex;
+    border-top: 1px solid darkgray;
+}
+.switch-tabs-div:hover {
+    background-color: whitesmoke;
+}
+
+.switch-tabs a {
+    display: block;
+    width: 200px;
+    justify-content: center;
+    align-items: center;
+    text-decoration: none;
+
+    overflow: hidden;
+    text-overflow: ellipsis;
+    white-space: nowrap;
+}
+
+.beastify-image {
+    width: 25px;
+    height: 25px;
+}
+
+.panel {
+    margin: 5px;
+}
