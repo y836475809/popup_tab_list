@@ -56,6 +56,9 @@ document.addEventListener("mouseup", e => {
     if(e.button == 1){
         window.close();
     }
+    if (e.button == 2) {
+        return;
+    }
     if (e.target.classList.contains("tab-container")
         || e.target.classList.contains("tab-favicon")
         || e.target.classList.contains("tab-title")) {
@@ -87,3 +90,7 @@ document.addEventListener("mouseup", e => {
 
     e.preventDefault();
 });
+
+document.addEventListener("contextmenu", event => {
+    event.preventDefault();
+}, { capture: true });
