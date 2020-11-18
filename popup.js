@@ -8,10 +8,10 @@ function listTabs() {
         let counter = 0;
 
         for (let tab of tabs) {
-            if(counter > limit){
+            if (counter > limit) {
                 break;
             }
-           
+
             const parent = document.createElement("div");
             parent.classList.add("tab-container");
             parent.title = tab.title;
@@ -26,16 +26,16 @@ function listTabs() {
             }
 
             let favicon = null;
-            if(tab.favIconUrl){
+            if (tab.favIconUrl) {
                 favicon = document.createElement("img");
                 favicon.setAttribute("src", tab.favIconUrl);
-            }else{
+            } else {
                 favicon = document.createElement("div");
             }
             favicon.dataset.tabid = tab.id;
             favicon.className = "tab-favicon";
 
-            parent.appendChild(favicon); 
+            parent.appendChild(favicon);
             parent.appendChild(tab_title);
             current_tabs.appendChild(parent);
 
@@ -53,7 +53,7 @@ function getCurrentWindowTabs() {
 }
 
 document.addEventListener("mouseup", e => {
-    if(e.button == 1){
+    if (e.button == 1) {
         window.close();
     }
     if (e.button == 2) {
@@ -69,10 +69,10 @@ document.addEventListener("mouseup", e => {
         const elms = document.querySelectorAll(".tab-title");
         for (let index = 0; index < elms.length; index++) {
             const elm = elms[index];
-            if(parseInt(elm.dataset.tabid) == tabId){
+            if (parseInt(elm.dataset.tabid) == tabId) {
                 elm.classList.add("tab-title-active");
                 break;
-            }  
+            }
         }
 
         browser.tabs.query({
