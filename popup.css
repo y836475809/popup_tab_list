@@ -7,9 +7,10 @@ html, body {
     display: flex;
     flex-wrap: wrap; 
     padding: 5px;
+    align-items: center;
 }
 
-.switch-tabs-div {
+.tab-container {
     padding-top: 5px;
     padding-bottom: 5px;
     display: flex;
@@ -17,16 +18,16 @@ html, body {
     width: calc(100% / 4); 
 }
 
-.switch-tabs-div:nth-child(n+5) {
+.tab-container:nth-child(n+5) {
     border-top: 1px solid darkgray;
 }
 
-.switch-tabs-div:hover {
+.tab-container:hover {
     background-color: whitesmoke;
     cursor: pointer;
 }
 
-.switch-tabs {
+.tab-title {
     padding-left: 5px;
     width: calc(100% - 25px); 
     overflow: hidden;
@@ -34,7 +35,7 @@ html, body {
     white-space: nowrap;
 }
 
-.switch-tabs-active {
+.tab-title-active {
     color: red;
 }
 

@@ -13,15 +13,16 @@ function listTabs() {
             }
            
             const parent = document.createElement("div");
-            parent.classList.add("switch-tabs-div");
+            parent.classList.add("tab-container");
             parent.title = tab.title;
+            parent.dataset.tabid = tab.id;
 
             const tab_title = document.createElement("div");
-            tab_title.classList.add("switch-tabs");
+            tab_title.classList.add("tab-title");
             tab_title.dataset.tabid = tab.id;
             tab_title.textContent = tab.title || tab.id;
             if (tab.active) {
-                tab_title.classList.add("switch-tabs-active");
+                tab_title.classList.add("tab-title-active");
             }
 
             let favicon = null;
@@ -55,12 +56,21 @@ document.addEventListener("mouseup", e => {
     if(e.button == 1){
         window.close();
     }
-    if (e.target.classList.contains("switch-tabs")) {
-        const ac_elm = document.querySelector(".switch-tabs-active");
-        ac_elm.classList.remove("switch-tabs-active");
+    if (e.target.classList.contains("tab-container")
+        || e.target.classList.contains("tab-favicon")
+        || e.target.classList.contains("tab-title")) {
+        const ac_elm = document.querySelector(".tab-title-active");
+        ac_elm.classList.remove("tab-title-active");
 
-        e.target.classList.add("switch-tabs-active");
         const tabId = parseInt(e.target.dataset.tabid);
+        const elms = document.querySelectorAll(".tab-title");
+        for (let index = 0; index < elms.length; index++) {
+            const elm = elms[index];
+            if(parseInt(elm.dataset.tabid) == tabId){
+                elm.classList.add("tab-title-active");
+                break;
+            }  
+        }
 
         browser.tabs.query({
             currentWindow: true
