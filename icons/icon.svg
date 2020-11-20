@@ -8,69 +8,69 @@
    xmlns="http://www.w3.org/2000/svg"
    xmlns:sodipodi="http://sodipodi.sourceforge.net/DTD/sodipodi-0.dtd"
    xmlns:inkscape="http://www.inkscape.org/namespaces/inkscape"
-   inkscape:export-ydpi="18.000002"
-   inkscape:export-xdpi="18.000002"
-   inkscape:export-filename="F:\dev\repository\popup_tab_list\icons\icon-48.png"
-   width="256"
-   height="256"
-   viewBox="0 0 67.733332 67.733335"
-   version="1.1"
-   id="svg8"
+   sodipodi:docname="icon.svg"
    inkscape:version="1.0 (4035a4fb49, 2020-05-01)"
-   sodipodi:docname="icon.svg">
+   id="svg8"
+   version="1.1"
+   viewBox="0 0 67.733332 67.733335"
+   height="256"
+   width="256"
+   inkscape:export-filename="F:\dev\repository\popup_tab_list\icons\icon-48.png"
+   inkscape:export-xdpi="18.000002"
+   inkscape:export-ydpi="18.000002">
   <defs
      id="defs2">
     <linearGradient
-       osb:paint="solid"
-       id="linearGradient3312">
+       id="linearGradient3312"
+       osb:paint="solid">
       <stop
-         id="stop3310"
+         style="stop-color:#0085ff;stop-opacity:1;"
          offset="0"
-         style="stop-color:#0085ff;stop-opacity:1;" />
+         id="stop3310" />
     </linearGradient>
     <marker
-       inkscape:isstock="true"
-       style="overflow:visible"
-       id="Arrow1Lstart"
-       refX="0.0"
-       refY="0.0"
+       inkscape:stockid="Arrow1Lstart"
        orient="auto"
-       inkscape:stockid="Arrow1Lstart">
+       refY="0.0"
+       refX="0.0"
+       id="Arrow1Lstart"
+       style="overflow:visible"
+       inkscape:isstock="true">
       <path
-         transform="scale(0.8) translate(12.5,0)"
-         style="fill-rule:evenodd;stroke:#000000;stroke-width:1pt;stroke-opacity:1;fill:#000000;fill-opacity:1"
+         id="path1090"
          d="M 0.0,0.0 L 5.0,-5.0 L -12.5,0.0 L 5.0,5.0 L 0.0,0.0 z "
-         id="path1090" />
+         style="fill-rule:evenodd;stroke:#000000;stroke-width:1pt;stroke-opacity:1;fill:#000000;fill-opacity:1"
+         transform="scale(0.8) translate(12.5,0)" />
     </marker>
   </defs>
   <sodipodi:namedview
-     inkscape:showpageshadow="false"
-     units="px"
-     fit-margin-bottom="0"
-     fit-margin-right="0"
-     fit-margin-left="0"
-     fit-margin-top="0"
-     id="base"
-     pagecolor="#ffffff"
-     bordercolor="#666666"
-     borderopacity="1.0"
-     inkscape:pageopacity="0.0"
-     inkscape:pageshadow="2"
-     inkscape:zoom="2.3505776"
-     inkscape:cx="92.874247"
-     inkscape:cy="121.04181"
-     inkscape:document-units="mm"
-     inkscape:current-layer="layer1"
-     inkscape:document-rotation="0"
-     showgrid="true"
-     inkscape:window-width="1638"
-     inkscape:window-height="1041"
-     inkscape:window-x="196"
+     inkscape:window-maximized="0"
      inkscape:window-y="29"
-     inkscape:window-maximized="0">
+     inkscape:window-x="196"
+     inkscape:window-height="1041"
+     inkscape:window-width="1638"
+     showgrid="true"
+     inkscape:document-rotation="0"
+     inkscape:current-layer="layer1"
+     inkscape:document-units="mm"
+     inkscape:cy="121.04181"
+     inkscape:cx="92.874247"
+     inkscape:zoom="2.3505776"
+     inkscape:pageshadow="2"
+     inkscape:pageopacity="0.0"
+     borderopacity="1.0"
+     bordercolor="#666666"
+     pagecolor="#ffffff"
+     id="base"
+     fit-margin-top="0"
+     fit-margin-left="0"
+     fit-margin-right="0"
+     fit-margin-bottom="0"
+     units="px"
+     inkscape:showpageshadow="false">
     <inkscape:grid
-       id="grid15"
-       type="xygrid" />
+       type="xygrid"
+       id="grid15" />
   </sodipodi:namedview>
   <metadata
      id="metadata5">
@@ -85,25 +85,25 @@
     </rdf:RDF>
   </metadata>
   <g
-     inkscape:label="レイヤー 1"
+     id="layer1"
      inkscape:groupmode="layer"
-     id="layer1">
+     inkscape:label="レイヤー 1">
     <rect
-       inkscape:export-ydpi="13.58636"
-       inkscape:export-xdpi="13.58636"
-       y="15.875"
-       x="5.2916665"
-       height="47.624996"
-       width="56.885414"
+       style="opacity:0.999;fill:none;stroke:#00aa00;stroke-width:7.7138;stroke-linecap:square;stroke-linejoin:round;stroke-miterlimit:11.7;stroke-dasharray:none;stroke-opacity:1;paint-order:normal"
        id="rect915"
-       style="opacity:0.999;fill:none;stroke:#008080;stroke-width:7.7138;stroke-linecap:square;stroke-linejoin:round;stroke-miterlimit:11.7;stroke-dasharray:none;stroke-opacity:1;paint-order:normal" />
+       width="56.885414"
+       height="47.624996"
+       x="5.2916665"
+       y="15.875"
+       inkscape:export-xdpi="13.58636"
+       inkscape:export-ydpi="13.58636" />
     <path
-       id="path931"
+       style="fill:#00aa00;stroke:#00aa00;stroke-width:8;stroke-linecap:butt;stroke-linejoin:round;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1"
        d="m 46.302083,17.197917 7.9375,-11.9062503 6.614583,11.9062503"
-       style="fill:none;stroke:#008080;stroke-width:8;stroke-linecap:butt;stroke-linejoin:round;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1" />
+       id="path931" />
     <path
-       id="path933"
+       style="fill:none;stroke:#00aa00;stroke-width:8;stroke-linecap:butt;stroke-linejoin:round;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1"
        d="m 17.197916,48.947917 v -15.875 h 33.072917 v 15.875"
-       style="fill:none;stroke:#008080;stroke-width:8;stroke-linecap:butt;stroke-linejoin:round;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1" />
+       id="path933" />
   </g>
 </svg>
