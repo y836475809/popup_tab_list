@@ -6,7 +6,7 @@
   "icons": {
     "48": "icons/icon-48.png"
   },
-  "version": "0.0",
+  "version": "0.1",
   "default_locale": "en",
 
   "applications": {
