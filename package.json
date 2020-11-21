@@ -4,8 +4,12 @@
   "description": "",
   "author": "",
   "license": "MIT",
+  "scripts": {
+    "build": "./node_modules/.bin/web-ext build"
+  },
   "devDependencies": {
     "eslint": "^7.13.0",
-    "eslint-plugin-html": "^6.1.1"
+    "eslint-plugin-html": "^6.1.1",
+    "web-ext": "^5.4.0"
   }
 }
