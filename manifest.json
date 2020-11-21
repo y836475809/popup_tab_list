@@ -1,4 +1,14 @@
 {
+  "manifest_version": 2,
+  "name": "Popup tab list",
+  "description": "__MSG_extensionDescription__",
+  "homepage_url": "https://github.com/y836475809/popup_tab_list",
+  "icons": {
+    "48": "icons/icon-48.png"
+  },
+  "version": "0.0",
+  "default_locale": "en",
+
   "applications": {
     "gecko": {
       "id": "popuptablist@y836475809"
@@ -10,15 +20,7 @@
     "default_title": "Popup tab list",
     "default_popup": "popup.html"
   },
-  "description": "Popup tab list",
-  "homepage_url": "https://github.com/y836475809/popup_tab_list",
-  "manifest_version": 2,
-  "name": "Popup tab list",
-  "icons": {
-    "48": "icons/icon-48.png"
-  },
   "permissions": [
     "tabs"
-  ],
-  "version": "0.0"
+  ]
 }
