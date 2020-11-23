@@ -3,7 +3,7 @@ module.exports = {
         overwriteDest: true
     },
     ignoreFiles: [
-        "image",
+        "screenshot",
         "tmp",
         "package.json",
         "package-lock.json",
