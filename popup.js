@@ -85,6 +85,10 @@ document.addEventListener("mouseup", e => {
                     });
                 }
             }
+            
+            if ( e.target.classList.contains("tab-favicon")) {
+                window.close();
+            } 
         });
     }
 
