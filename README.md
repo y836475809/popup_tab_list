@@ -6,4 +6,4 @@
 左クリックでタブ選択、中クリックでポップアップ閉じます。
 
 アイコンクリックするとタブ選択後にポップアップ閉じます。
-![Test Image 1](image/image1.png)
+![Screenshot1](screenshot/screenshot1.png)
